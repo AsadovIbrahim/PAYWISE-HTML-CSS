@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-section{
+    background: var(--my, linear-gradient(108deg, #309975 0%, #58B368 100%));
+    height: 89vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.navbar .left-header{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .left-header .logo-text{
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Poppins;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+
+
+.navbar .menu-header ul{
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar .menu-header ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Poppins;
+    font-size: small;
+}
+.loginBtn{
+    background: none;
+    border: none;
+    color: #fff;
+}
+.right-header{
+    display: flex;
+    gap: 20px;
+}
+
+.signUpBtn{
+    border: 1px solid #DAD873;
+    background-color: #DAD873;
+    color: #309975;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-family: Poppins;
+}
+
+.first-section-body{
+    display: flex;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 30px;
+}
+.first-section-body .text-header{
+    border-bottom: 2px solid #fff;
+    width:265px;
+}
+.first-section-body .body-blocks{
+    display: flex;
+    gap: 40px;
+}
+
+.first-section-body h1{
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Poppins;
+    line-height: 110.5%;
+    color: #fff;
+}
+.first-section-body .body-blocks{
+    font-family: Poppins;
+    color: #fff;
+}
+.first-section-body .body-blocks{
+    padding-top: 20px;
+}
+.first-section-body .body-blocks h3{
+    font-weight: 700;
+    font-family: Poppins;
+    font-size: 24px;
+}
+.first-section-body .body-blocks p{
+    font-size: 11px;
+}
+.first-section-body .left-body-btn{
+    padding-top: 50px;
+
+}
+.first-section-body .left-body-btn button{
+    border: 1px solid #DAD873;
+    background-color: #DAD873;
+    color: #309975;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.right-section-body img{
+    width: 650px;
+    display: flex;
+}
+
+#Cards .cards-header{
+    text-align: center;
+    padding-top: 40px;
+} 
+#Cards .cards-header h2{
+    text-transform: capitalize;
+    color: #309975;
+    font-family: Poppins;
+    font-weight: 800;
+}
+#Cards .cards-header p{
+    font-size: xx-small;
+    color: #575757;
+    font-family: Poppins;
+}
+
+.cards-blocks{
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+}
+
+
+
+.cards-blocks .first-block{
+    border: 1px solid rgba(239, 238, 180, 0.20);
+    background: rgba(239, 238, 180, 0.20);
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    height: 634px;
+}
+
+.cards-blocks .first-block .petal1-btn{
+    border: 1px solid #DAD873;
+    width: 100px;
+    font-weight: 500;
+    height: 40px;
+    background-color: #DAD873;
+    border-radius: 10px;
+    color: #575757;
+    font-family: Poppins;
+    font-size: x-small;
+}
+.cards-blocks .first-block-header h2{
+    font-family: Poppins;
+    color: #DAD873;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.cards-blocks .first-block-list ul{
+    font-size: x-small;
+    padding: 10px;
+}
+.cards-blocks .first-block-list p{
+    font-size: x-small;
+    font-family: Poppins;
+    color: #575757;
+    padding: 10px;
+}
+
+.first-block-btn .learnmore-btn{
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: x-small;
+    border-radius: 5px;
+    background: #F8BF88;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.first-block .first-block-visacard{
+    width: 242px;
+    padding: 30px;
+    height: 150px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #DAD873 0%, #FFCA63 100%);
+    margin-top: 60px;
+}
+
+.first-block-visacard .visa-text{
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: Poppins;
+    color: #20656F;
+    font-weight: 700;
+}
+
+.first-block-visacard .total-balance-text{
+    color: #20656F;
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: x-small;
+    margin-top: 30px;
+}
+
+.first-block-visacard .dollar-text{
+    color: #20656F;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+
+.cards-blocks .second-block{
+    border: 1px solid rgba(239, 238, 180, 0.20);
+    background: rgba(239, 238, 180, 0.20);
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    height: 634px;
+}
+
+.cards-blocks .second-block .petal2-btn{
+    border: 1px solid #FFCDC2;
+    width: 100px;
+    font-weight: 500;
+    height: 40px;
+    background-color: #FFCDC2;
+    border-radius: 10px;
+    color: #575757;
+    font-family: Poppins;
+    font-size: x-small;
+}
+.cards-blocks .second-block-header h2{
+    font-family: Poppins;
+    color: #F8BF88;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+
+
+.first-block-btn .learnmore-btn{
+    border: none;
+    width: 120px;
+    height: 40px;
+    font-family: Poppins;
+    font-size: x-small;
+    border-radius: 5px;
+    background: #F8BF88;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.second-block .second-block-visacard{
+    width: 242px;
+    padding: 30px;
+    height: 150px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FFCDC2 0%, #F88888 100%);    margin-top: 60px;
+}
+
+.second-block-visacard .visa-text{
+    font-style: italic;
+    text-transform: uppercase;
+    font-family: Poppins;
+    color: #20656F;
+    font-weight: 700;
+}
+
+.second-block-visacard .total-balance-text{
+    color: #20656F;
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: x-small;
+    margin-top: 30px;
+}
+
+.second-block-visacard .dollar-text{
+    color: #20656F;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
